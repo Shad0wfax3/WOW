@@ -200,7 +200,7 @@ hooksecurefunc("CompactUnitFrame_UpdateName",function()
 end)
 
 -- 放大buff
--- hooksecurefunc("TargetFrame_UpdateBuffAnchor", function(_, name, i) _G[name..i]:SetSize(22, 22) end);
+hooksecurefunc("TargetFrame_UpdateBuffAnchor", function(_, name) name:SetSize(20, 20) end)
 
 
 --血条右侧显示箭头
